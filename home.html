@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./flaticons/css/uicons-regular-rounded.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="mobile-frame-wrapper">
+        <div class="mobile-frame-iphone14">
+            <div class="project-container-main">
+                <div class="project-container-content">
+                    <div class="project-header-main">
+                        <div class="header-item header-item-logo">
+                            <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="header-item header-item-title">MyDrone</div>
+                        <div class="header-item header-item-user">
+                            <img src="./images/user.png" alt="">
+                        </div>
+                    </div>
+                    <div class="project-content-main" id="project-content-main">
+                        <div class="content-item content-slider-main">
+                            <div class="content-slider">
+                                <div class="slider-paggination">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="./images/3drone.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="content-slider-details">
+                                <div class="content-slider-item">
+                                    <div class="slider-details-title">
+                                        Quadcopter Drone
+                                    </div>
+                                    <div class="slider-details-desc">
+                                        4K Video & Photo Camera
+                                    </div>
+                                </div>
+                                <div class="content-slider-item slider-cart-main">
+                                    <div class="slider-cart-desc">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-item content-suggestion-main">
+                            <div class="content-suggestion-title">
+                                Suggested
+                            </div>
+                            <div class="content-suggestion-items">
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/1drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        K911 Max Dron
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/2drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/2drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/4drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/1drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        K911 Max Dron
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/2drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/2drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                                <div class="suggestion-item">
+                                    <div class="suggestion-item-img">
+                                        <img src="./images/4drone.jpg" alt="">
+                                    </div>
+                                    <div class="suggestion-item-name">
+                                        DJI Mavic 2
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-footer-main">
+                        <div class="footer-items">
+                            <div class="footer-item">
+                                <i class='bx bx-home-alt'></i>
+                            </div>
+                            <div class="footer-item">
+                                <i class='bx bx-bell'></i>
+                            </div>
+                            <div class="footer-item">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                            <div class="footer-item">
+                                <i class='bx bx-cog'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper-container.two', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            effect: 'coverflow',
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 0,
+                stretch: 100,
+                depth: 10,
+                modifier: 1.5,
+                slideShadows: false,
+            }
+        });
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
